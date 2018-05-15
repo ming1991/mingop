@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/search_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_input_height"
+        android:layout_margin="5dp"
+        android:background="@drawable/search_bg"
+        android:drawableRight="@drawable/search_cursor"
+        android:padding="5dp"
+        android:visibility="visible" />
+</LinearLayout>

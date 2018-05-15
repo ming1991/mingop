@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.announce.AnnounceListActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        app:elevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height">
+
+            <TextView
+                android:id="@+id/title_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:text="@string/main_title"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/new_announce_im"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:background="@drawable/add2"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp" />
+        </RelativeLayout>
+
+
+        <!--<include layout="@layout/title_bar" />-->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_list_announce" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/announce_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/fab_marginRight"
+        android:layout_marginBottom="@dimen/fab_marginBottom"
+        android:src="@drawable/add"
+        android:visibility="visible"
+        app:backgroundTint="#53D0FE" />
+
+    <include layout="@layout/loading" />
+
+</android.support.design.widget.CoordinatorLayout>

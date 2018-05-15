@@ -1,0 +1,495 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.announce.fragment.WarningFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/warning_notice_create_date_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/warning_notice_create_date" />
+
+                <TextView
+                    android:id="@+id/warning_notice_create_date"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/warning_notice_create_date_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/warning_notice_maker_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/warning_notice_maker" />
+
+                <TextView
+                    android:id="@+id/warning_notice_maker"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/warning_notice_maker_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/warning_csic_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/warning_csic" />
+
+                <TextView
+                    android:id="@+id/warning_csic"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/warning_csic_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_title"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/warning_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warnig_contain_devices"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/warnig_contain_devices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_contain_version"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/warning_contain_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_contain_scope"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/warning_contain_scope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_operate_type"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/warning_operate_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_work_load"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/warning_work_load"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_charge"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/csicPerson_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/csicPerson"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/csicPerson"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/csicPerson_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/itPerson_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/itPerson"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/itPerson"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/itPerson_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/operatePerson_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/operatePerson"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/operatePerson"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/operatePerson_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_problem_desc"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:id="@+id/warning_problem_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_reform_operate"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:id="@+id/warning_reform_operate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/warning_notice_content"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:id="@+id/warning_notice_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#010A35</color>
+    <color name="colorPrimaryDark">#010A35</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_bg">#000E4B</color>
+    <color name="rbt_bg_checked">#071965</color>
+    <color name="rbt_text_unchecked">#D1D9F6</color>
+    <color name="rbt_text_checked">#eaD0D6EB</color>
+    <color name="main_bt_unpress">#071965</color>
+    <color name="main_bt_press">#2E3D7D</color>
+    <color name="line">#5fff</color>
+    <color name="bg">#071965</color>
+    <color name="alarm_item_bg_unpressed">#071965</color>
+    <color name="alarm_item_bg_pressed">#04134E</color>
+    <color name="filter_bg">#04134E</color>
+    <color name="filter_text_stroke">#2641B2</color>
+    <color name="filter_text_unchecked">#89A2FE</color>
+    <color name="filter_text_checked">#4161E2</color>
+    <color name="clear_button_bg_unpressed">#FF3A65</color>
+    <color name="clear_button_bg_pressed">#ff2657</color>
+    <color name="confirm_button_bg_unpressed">#45c242</color>
+    <color name="confirm_button_bg_pressed">#39a736</color>
+    <color name="contact_text">#fff</color>
+    <color name="swipe_refresh_circle_bg">#f00</color>
+    <color name="swipe_refresh_circle">#0f0</color>
+    <color name="alarm_detail_content">#A1B2FF</color>
+    <color name="divider">#1431AF</color>
+    <color name="alarm_statisical">#45C242</color>
+    <color name="search_stroke">#FFBE56</color>
+</resources>

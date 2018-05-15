@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.huawei.mops.ui.alarm.AlarmManagerActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:text="@string/main_title"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/alarm_statistical_iv"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:clickable="true"
+                android:src="@mipmap/statistic_ic" />
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<include layout="@layout/content_alarm_manager" />-->
+    <include layout="@layout/alarm_manager_layout" />
+
+    <include layout="@layout/loading" />
+</android.support.design.widget.CoordinatorLayout>

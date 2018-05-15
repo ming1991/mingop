@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.huawei.mops.ui.inspection.ShowcaseDetailActivity"
+    tools:showIn="@layout/activity_showcase_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/showCaseId_title_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseId" />
+
+                <TextView
+                    android:id="@+id/showCaseId"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/showCaseId_title_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/platform_update_maker_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseCnName" />
+
+                <TextView
+                    android:id="@+id/cnName"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/platform_update_maker_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/platform_update_date_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseEnName" />
+
+                <TextView
+                    android:id="@+id/enName"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/platform_update_date_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/alarm_title_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseSolutionTopic" />
+
+                <TextView
+                    android:id="@+id/solutionTopic"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_title_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/alarm_type_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseCsic" />
+
+                <TextView
+                    android:id="@+id/csic"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_type_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/alarm_src_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseShowArea" />
+
+                <TextView
+                    android:id="@+id/showArea"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_src_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/alarm_device_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseBandwidth" />
+
+                <TextView
+                    android:id="@+id/bandWidth"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_device_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/alarm_first_time_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseExperienceWay" />
+
+                <TextView
+                    android:id="@+id/experienceWay"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_first_time_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/alarm_last_time_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseStatus" />
+
+                <TextView
+                    android:id="@+id/status"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/alarm_last_time_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/deploymentStatus_title_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseDeploymentStatus" />
+
+                <TextView
+                    android:id="@+id/deploymentStatus"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/deploymentStatus_title_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/loadWay_title_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseLoadWay" />
+
+                <TextView
+                    android:id="@+id/loadWay"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/loadWay_title_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/maintenancePerson_title_tv"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/showCaseMainPerson" />
+
+                <TextView
+                    android:id="@+id/maintenancePerson"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/maintenancePerson_title_tv"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:id="@+id/showcase_cn_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/cn_desription"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:id="@+id/showcase_cn_des_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:id="@+id/showcase_en_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/en_desription"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:id="@+id/showcase_en_des_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

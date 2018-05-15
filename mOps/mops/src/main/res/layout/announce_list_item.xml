@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alarm_item_bg">
+
+    <RelativeLayout
+        android:id="@+id/announce_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible">
+
+        <CheckBox
+            android:id="@+id/announce_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/announce_item_right"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/announce_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/announce_item_title"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/filter_text_unchecked"
+            android:textSize="@dimen/announce_item_date" />
+
+
+        <TextView
+            android:id="@+id/announce_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/announce_item_date"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="#676767"
+            android:textSize="@dimen/announce_item_title" />
+
+
+        <TextView
+            android:id="@+id/announce_item_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/announce_item_title"
+            android:layout_marginTop="5dp"
+            android:paddingRight="3dp"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/filter_text_unchecked"
+            android:textSize="@dimen/announce_item_describe" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

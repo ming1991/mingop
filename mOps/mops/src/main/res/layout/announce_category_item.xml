@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/announce_category_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/announce_bt_bg"
+        android:stateListAnimator="@anim/touch_raise"
+        app:cardBackgroundColor="@color/announce_bt_unpressed"
+        app:cardCornerRadius="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="5dp">
+
+        <RelativeLayout
+            android:id="@+id/csic_upgrade_announce_bt"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/category_ic"
+                android:layout_width="@dimen/announce_icon_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/csic_upgrade" />
+
+            <TextView
+                android:id="@+id/category_title"
+                style="@style/bt_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:alpha="0.8"
+                android:text="@string/announce_csic_upgrade"
+                android:textAlignment="viewEnd"
+                android:textAllCaps="false"
+                android:textColor="@color/rbt_text_unchecked" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <!--<com.huawei.mops.weight.BadgeView-->
+        <!--android:id="@+id/announce_badge"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right|top"-->
+        <!--android:layout_marginRight="35dp"-->
+        <!--android:layout_marginTop="35dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="22" />-->
+</FrameLayout>

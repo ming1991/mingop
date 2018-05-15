@@ -1,0 +1,306 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.announce.fragment.BreakdownFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/breakdown_create_date_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/breakdown_create_date" />
+
+                <TextView
+                    android:id="@+id/breakdown_create_date"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/breakdown_create_date_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/breakdown_maker_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/breakdown_maker" />
+
+                <TextView
+                    android:id="@+id/breakdown_maker"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/breakdown_maker_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/breakdown_csic_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/breakdown_csic" />
+
+                <TextView
+                    android:id="@+id/breakdown_csic"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/breakdown_csic_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/breakdown_title_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/breakdown_title" />
+
+                <TextView
+                    android:id="@+id/breakdown_title"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/breakdown_title_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/breakdown_happen_time_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/breakdown_happen_time" />
+
+                <TextView
+                    android:id="@+id/breakdown_happen_time"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/breakdown_happen_time_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/breakdown_restore_time_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/breakdown_restore_time" />
+
+                <TextView
+                    android:id="@+id/breakdown_restore_time"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/breakdown_restore_time_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/breakdown_charge_person_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/breakdown_charge_person" />
+
+                <TextView
+                    android:id="@+id/breakdown_charge_person"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/breakdown_charge_person_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/breakdown_desc"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/breakdown_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/breakdown_reason"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/breakdown_reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/breakdown_influence_range"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+            
+            <TextView
+                android:id="@+id/breakdown_influence_range"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

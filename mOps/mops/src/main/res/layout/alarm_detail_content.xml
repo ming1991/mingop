@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_occurrence_areas" />
+
+        <TextView
+            android:id="@+id/alarm_occurrence_area_tv"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_level" />
+
+        <TextView
+            android:id="@+id/platform_update_maker_"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_field" />
+
+        <TextView
+            android:id="@+id/platform_update_date_"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_title" />
+
+        <TextView
+            android:id="@+id/alarm_title_tv"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_type" />
+
+        <TextView
+            android:id="@+id/alarm_type_tv"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_source" />
+
+        <TextView
+            android:id="@+id/alarm_source_tv"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_occurrence_device" />
+
+        <TextView
+            android:id="@+id/alarm_occurrence_device_tv"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_first_occurrence_date" />
+
+        <TextView
+            android:id="@+id/alarm_first_occurrence_date_tv"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/alarm_detail_content_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_title_weight"
+            android:text="@string/alarm_last_occurrence_date" />
+
+        <TextView
+            android:id="@+id/alarm_last_occurrence_date_tv"
+            style="@style/alarm_detail_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/alarm_detail_content_weight" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_line" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.huawei.mops.ui.announce.fragment.EmailDetailFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/email_csic_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/email_csic" />
+
+                <TextView
+                    android:id="@+id/email_csic"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/email_csic_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/email_receiver_$"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:id="@+id/email_receiver_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

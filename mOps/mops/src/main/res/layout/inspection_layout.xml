@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:background="@color/colorPrimary">
+
+        <CheckBox
+            android:id="@+id/select_all_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:checked="false"
+            android:text="@string/inspection_select_all"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:text="@string/main_title"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/select_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:clickable="true"
+            android:text="@string/inspection_select"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.huawei.mops.weight.CustomTabLayout
+        android:id="@+id/inspaction_dropMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dddividerColor="@color/filter_bg"
+        app:ddmaskColor="@color/mask_color"
+        app:ddmenuBackgroundColor="@color/filter_bg"
+        app:ddmenuSelectedIcon="@mipmap/filter_cursor_up"
+        app:ddmenuTextSize="13sp"
+        app:ddmenuUnselectedIcon="@mipmap/filter_cursor_down"
+        app:ddtextSelectedColor="#000"
+        app:ddtextUnselectedColor="@color/filter_text_unchecked"
+        app:ddunderlineColor="@color/filter_text_stroke"
+        app:paddingBottom="8dp"
+        app:paddingLeft="8dp"
+        app:paddingRight="8dp"
+        app:paddingTop="8dp"
+        app:tab_height="25dp">
+
+    </com.huawei.mops.weight.CustomTabLayout>
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.huawei.mops.ui.alarm.AlarmManagerActivity"
+    tools:showIn="@layout/activity_alarm_manager">
+
+    <Button
+        android:id="@+id/alarm_statistical_bt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alarm_statistical_bt_height"
+        android:layout_margin="20dp"
+        android:background="@drawable/alarm_statistical_bt_unpressed"
+        android:gravity="center"
+        android:text="@string/alarm_statistical_bt_text"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="@dimen/alarm_statistical_bt_textsize"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/filter_bg"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+
+        <RadioGroup
+            android:id="@+id/alarm_rg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <RadioButton
+                android:id="@+id/alarm_area_filter"
+                style="@style/filter_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                android:text="区域" />
+
+            <TextView
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="#0000" />
+
+            <RadioButton
+                android:id="@+id/alarm_filed_filter"
+                style="@style/filter_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:text="领域" />
+
+            <TextView
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="#0000" />
+
+            <RadioButton
+                android:id="@+id/alarm_level_filter"
+                style="@style/filter_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:text="级别" />
+
+            <TextView
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="#0000" />
+
+            <RadioButton
+                style="@style/filter_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/alarm_state_filter"
+                android:button="@null"
+                android:text="状态" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/alarm_statistical_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/alarm_statistical_text"
+                android:textAllCaps="false"
+                android:textColor="@color/filter_text_unchecked"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/search_et"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/alarm_statistical_tv"
+                android:background="@drawable/search_bg"
+                android:drawableRight="@drawable/search_cursor"
+                android:padding="5dp"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/search_bt"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/line_width"-->
+    <!--android:background="#EAEAEA" />-->
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/alarm_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/alarm_recyclerView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:scrollbars="vertical" />-->
+
+</LinearLayout>

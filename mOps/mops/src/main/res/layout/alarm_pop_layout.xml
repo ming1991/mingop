@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/alarm_filter_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#0000"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:layout_gravity="bottom"
+        android:background="@color/bg"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/alarm_filter_reset_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/clear_bt_bg"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/clear" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/clear_bt_bg"
+                    android:gravity="center_vertical"
+                    android:text="@string/alarm_filter_reset"
+                    android:textAllCaps="false"
+                    android:textColor="#E2E5F4"
+                    android:textSize="@dimen/button_text_size" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/alarm_filter_confirm_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/confirm_bt_bg"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/confirm" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/confirm_bt_bg"
+                    android:gravity="center_vertical"
+                    android:text="@string/alarm_filter_confirm"
+                    android:textAllCaps="false"
+                    android:textColor="#E2E5F4"
+                    android:textSize="@dimen/button_text_size" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <!--<com.huawei.mops.weight.MDButton-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@drawable/clear_bt_bg"-->
+        <!--android:clickable="true"-->
+        <!--android:drawableLeft="@mipmap/clear"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="@string/clear"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#E2E5F4"-->
+        <!--android:textSize="@dimen/button_text_size" />-->
+
+        <!--<com.huawei.mops.weight.MDButton-->
+        <!--android:id="@+id/alarm_confirm_button"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@drawable/confirm_bt_bg"-->
+        <!--android:clickable="true"-->
+        <!--android:drawableLeft="@mipmap/confirm"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="@string/confirm"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#E2E5F4"-->
+        <!--android:textSize="@dimen/button_text_size" />-->
+    </LinearLayout>
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/tab_height"-->
+    <!--android:background="@color/bg"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<com.huawei.mops.weight.MDButton-->
+    <!--android:id="@+id/alarm_filter_reset_button"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/clear_bt_bg"-->
+    <!--android:clickable="true"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/alarm_filter_reset"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textColor="#E2E5F4"-->
+    <!--android:textSize="@dimen/button_text_size" />-->
+
+    <!--<com.huawei.mops.weight.MDButton-->
+    <!--android:id="@+id/alarm_filter_confirm_button"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/confirm_bt_bg"-->
+    <!--android:clickable="true"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/alarm_filter_confirm"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textColor="#E2E5F4"-->
+    <!--android:textSize="@dimen/button_text_size" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

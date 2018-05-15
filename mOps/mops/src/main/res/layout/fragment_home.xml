@@ -1,0 +1,230 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    tools:context="com.huawei.mops.ui.main.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/home_bannar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+        </android.support.v4.view.ViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                custom:auto_cycle="true"
+                custom:indicator_visibility="visible"
+                custom:pager_animation="Accordion"
+                custom:pager_animation_span="1100" />
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/banner_loading"
+            android:layout_width="match_parent"
+            style="?android:attr/progressBarStyleSmall"
+            android:visibility="gone"
+            android:layout_height="match_parent" />
+
+        <com.huawei.mops.weight.BannerIndicator
+            android:id="@+id/banner_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            app:circle_radius="3dp"
+            app:id_color="#ffffffff"
+            app:stroke_width="1dp" />
+
+        <ImageView
+            android:id="@+id/default_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/a1"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/main_line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+
+        <RelativeLayout
+            android:id="@+id/alarm_manage_bt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_bt_bg"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/alarm_ic"
+                android:layout_width="@dimen/home_bt_ic_width"
+                android:layout_height="@dimen/home_bt_ic_height"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@mipmap/alarm_manage_ic" />
+
+            <TextView
+                style="@style/bt_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/alarm_ic"
+                android:alpha="0.8"
+                android:text="@string/alarm_manage" />
+
+            <com.huawei.mops.weight.BadgeView
+                android:id="@+id/alarm_manager_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:text="15" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/main_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_line" />
+
+        <RelativeLayout
+            android:id="@+id/inspection_bt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_bt_bg"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/inspection_ic"
+                android:layout_width="@dimen/home_bt_ic_width"
+                android:layout_height="@dimen/home_bt_ic_height"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@mipmap/inspection_ic" />
+
+            <TextView
+                style="@style/bt_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/inspection_ic"
+                android:alpha="0.8"
+                android:text="@string/inspection" />
+
+            <com.huawei.mops.weight.BadgeView
+                android:id="@+id/inspection_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:text="1" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/main_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_line" />
+
+        <RelativeLayout
+            android:id="@+id/announcement_manage_bt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_bt_bg"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/announce_ic"
+                android:layout_width="@dimen/home_bt_ic_width"
+                android:layout_height="@dimen/home_bt_ic_height"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@mipmap/announcement_manage_ic" />
+
+            <TextView
+                style="@style/bt_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/announce_ic"
+                android:alpha="0.8"
+                android:text="@string/announcement_manage" />
+
+            <com.huawei.mops.weight.BadgeView
+                android:id="@+id/announce_manage_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:text="222" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_line" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,258 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.announce.fragment.PlatformUpdateFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/platform_update_create_date_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/platform_update_create_date" />
+
+                <TextView
+                    android:id="@+id/platform_update_create_date"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/platform_update_create_date_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/platform_update_maker_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/platform_update_maker" />
+
+                <TextView
+                    android:id="@+id/platform_update_maker"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/platform_update_maker_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/platform_update_date_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/platform_update_date" />
+
+                <TextView
+                    android:id="@+id/platform_update_date"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/platform_update_date_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/platform_update_response_"
+                    style="@style/alarm_detail_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/platform_update_response" />
+
+                <TextView
+                    android:id="@+id/platform_update_response"
+                    style="@style/alarm_detail_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/platform_update_response_"
+                    android:gravity="center_vertical" />
+            </RelativeLayout>
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/platform_update_content"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/platform_update_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/platform_update_detail"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/platform_update_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/platform_update_influence"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/platform_update_influence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/platform_update_influence_range"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content_title"
+                android:textSize="@dimen/alarm_detail_content_title" />
+
+            <include layout="@layout/horizontal_line" />
+
+
+            <TextView
+                android:id="@+id/platform_update_influence_range"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/alarm_detail_content"
+                android:textSize="@dimen/alarm_detail_content" />
+
+            <include layout="@layout/horizontal_line" />
+
+            <include layout="@layout/horizontal_line" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

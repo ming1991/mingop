@@ -1,0 +1,362 @@
+<resources>
+
+    <string name="app_name">mOps</string>
+    <string name="main_title">三朵云全球运维监控平台</string>
+    <string name="alarm_manage">告警管理</string>
+    <string name="inspection">日常巡检</string>
+    <string name="one_key_inspection">一键巡检</string>
+    <string name="announcement_manage">通告管理</string>
+    <string name="showcase_detail">Showcase详情</string>
+    <string name="home_page">首页</string>
+    <string name="contact">联系我们</string>
+    <string name="toast_finish">再点击一次，退出程序</string>
+    <string name="alarm_detail">告警处理</string>
+    <string name="alarm_statistic">告警统计</string>
+    <string name="default_title"> </string>
+    <string name="clear">清除</string>
+    <string name="confirm">确认</string>
+    <string name="cancle">取消</string>
+    <string name="already_clear">已清除</string>
+    <string name="already_confirm">已确认</string>
+    <string name="globle_statistic">全球CSIC统计表</string>
+    <string name="announce_wrong">重大故障</string>
+    <string name="announce_warning_notice">预警公告</string>
+    <string name="announce_csic_upgrade">CSIC升级维护</string>
+    <string name="announce_platform_upgrade">运维平台升级</string>
+    <string name="email_list_title">邮件群组</string>
+
+    <string name="announce_detail_wrong">故障公告详情</string>
+    <string name="announce_detail_warning_notice">预警公告详情</string>
+    <string name="announce_detail_csic_upgrade">CSIC升级维护详情</string>
+    <string name="announce_detail_platform_upgrade">运维平台升级详情</string>
+    <string name="announce_detail_email">群组详情</string>
+
+    <string name="announce_publish_wrong">故障公告</string>
+    <string name="announce_publish_csic_update">CSIC升级维护公告</string>
+    <string name="announce_publish_warning">预警公告</string>
+    <string name="announce_publish_platform_update">平台升级公告</string>
+    <string name="announce_publish_email">创建群组</string>
+
+
+    <string name="alarm_filter_reset">重置</string>
+    <string name="alarm_filter_confirm">确认</string>
+
+    <string name="save">保存</string>
+    <string name="send">发布</string>
+
+    <string name="alarm_occurrence_areas">所属区域：</string>
+    <string name="alarm_level">告警级别：</string>
+    <string name="alarm_field">告警领域：</string>
+    <string name="alarm_title">告警标题：</string>
+    <string name="alarm_type">告警类型：</string>
+    <string name="alarm_source">告警源：</string>
+    <string name="alarm_occurrence_device">设备名称：</string>
+    <string name="alarm_first_occurrence_date">首次发生时间：</string>
+    <string name="alarm_last_occurrence_date">最近发生时间：</string>
+    <string name="alarm_detail_title">告警详情：</string>
+    <string name="alarm_analysis">告警分析：</string>
+
+    <string name="alarm_statistical_bt_text">告警统计</string>
+    <string name="alarm_statistical_text">共%1$d个警告</string>
+    <string name="search_hint">搜索...</string>
+    <string name="inspection_select">选择</string>
+    <string name="inspection_cancle_select">完成</string>
+    <string name="inspection_select_all">全选</string>
+    <string name="inspection_select_none">取消全选</string>
+
+    <string name="inspection_statistical_text">总数:%1$d  【正常:%2$d  异常处理:%3$d  升级维护:%4$d  不可用:%5$d  未知:%6$d】</string>
+    <string name="inspection_statistic_error">获取统计信息失败！</string>
+
+    <string name="remember_account">记住密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="login">登录</string>
+    <!--result code-->
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">登录失败，错误的账号或密码</string>
+    <string name="login_server_error">登录异常</string>
+    <string name="login_no_permissions">NotPermissions</string>
+    <string name="error_input_user">请输入用户名</string>
+    <string name="error_input_pwd">请输入密码</string>
+
+    <string name="connect_time_out">连接服务器超时</string>
+    <string name="connect_failed">连接服务器失败</string>
+    <string name="server_error">服务器内部错误</string>
+    <string name="url_error">链接不存在</string>
+    <string name="unkown_host">未知的域名</string>
+
+    <string name="delete_failed">删除失败</string>
+    <string name="load_failed">加载失败</string>
+    <string name="save_failed">保存失败</string>
+
+
+    <!--showcase-->
+    <string name="showCaseId">ShowCase ID：</string>
+    <string name="showCaseCnName">中文名称：</string>
+    <string name="showCaseEnName">英文名称：</string>
+    <string name="showCaseSolutionTopic">细分市场：</string>
+    <string name="showCaseCsic">CSIC区域：</string>
+    <string name="showCaseShowArea">业务区域：</string>
+    <string name="showCaseBandwidth">宽带要求(单位:M)：</string>
+    <string name="showCaseExperienceWay">体验方式：</string>
+    <string name="showCaseStatus">健康状态：</string>
+    <string name="showCaseDeploymentStatus">部署状态：</string>
+    <string name="showCaseLoadWay">加载形式：</string>
+    <string name="showCaseMainPerson">运维人员：</string>
+    <string name="cn_desription">中文描述:</string>
+    <string name="en_desription">English Descripthio:</string>
+    <string name="regionId">地区部</string>
+    <string name="csicId">代表处</string>
+    <string name="solutionTopicId">细分市场</string>
+    <string-array name="inspection_filter_title">
+        <item>regionId</item>
+        <item>csicId</item>
+        <item>solutionTopicId</item>
+    </string-array>
+    <string-array name="showcase_detail">
+        <item>ShowCase ID：%1$s</item>
+        <item>中文名称：%1$s</item>
+        <item>英文名称：%1$s</item>
+        <item>细分市场：%1$s</item>
+        <item>CSIC区域：%1$s</item>
+        <item>业务区域：%1$s</item>
+        <item>宽带要求(单位:M)：%1$s</item>
+        <item>体验方式：%1$s</item>
+        <item>健康状态：%1$s</item>
+        <item>部署状态：%1$s</item>
+        <item>加载形式：%1$s</item>
+        <item>运维人员：%1$s</item>
+    </string-array>
+
+    <!--warning-->
+    <string name="csic_id">区域CSIC</string>
+    <string name="warningFiled">告警领域</string>
+    <string name="level">告警级别</string>
+    <string name="status">告警状态</string>
+
+    <string name="alarm_field_title">监控告警</string>
+    <string-array name="warning_field">
+        <item>告警领域</item>
+        <item>设备</item>
+        <item>网络</item>
+        <item>业务</item>
+        <item>CCS</item>
+    </string-array>
+    <string-array name="alarm_status">
+        <item>告警状态</item>
+        <item>Y</item>
+        <item>N</item>
+    </string-array>
+    <string name="alarm_no_clear">未清除</string>
+    <string name="alarm_already_clear">已清除</string>
+    <string-array name="alarm_level">
+        <item>告警级别</item>
+        <item>紧急</item>
+        <item>重要</item>
+        <item>次要</item>
+        <item>一般</item>
+    </string-array>
+
+    <string-array name="alarm_filter_title">
+        <item>csic_id</item>
+        <item>warningFiled</item>
+        <item>level</item>
+        <item>status</item>
+    </string-array>
+    <string-array name="alarm_detail">
+        <item>所属区域：</item>
+        <item>告警级别：</item>
+        <item>告警领域：</item>
+        <item>告警标题：</item>
+        <item>告警类型：</item>
+        <item>告警源：</item>
+        <item>设备名称：</item>
+        <item>首次发生时间：</item>
+        <item>最近发生时间：</item>
+    </string-array>
+
+    <string name="urgency_text">紧急</string>
+    <string name="important_text">重要</string>
+    <string name="secondary_text">次要</string>
+    <string name="general_text">一般</string>
+
+    <string name="normal">正常</string>
+
+    <string-array name="announce_menu">
+        <item>发布</item>
+        <item>修改</item>
+        <item>删除</item>
+        <item>复制</item>
+    </string-array>
+
+    <string name="delete">删除</string>
+    <string name="update">修改</string>
+    <string name="copy">复制</string>
+    <string name="publish">发布</string>
+
+    <!--Breakdown-->
+    <string name="breakdown_create_date">通告日期：</string>
+    <string name="breakdown_maker">发布人：</string>
+    <string name="breakdown_csic">所属CSIC：</string>
+    <string name="breakdown_csic_$">%1$s所属CSIC：</string>
+    <string name="breakdown_title">公告标题：</string>
+    <string name="breakdown_title_$">%1$s公告标题：</string>
+    <string name="breakdown_happen_time">故障发生时间：</string>
+    <string name="breakdown_restore_time">故障恢复时间：</string>
+    <string name="breakdown_charge_person">相关责任人：</string>
+    <string name="breakdown_desc">故障概述：</string>
+    <string name="breakdown_desc_$">%1$s故障概述：</string>
+    <string name="breakdown_reason">故障原因：</string>
+    <string name="breakdown_reason_$">%1$s故障原因：</string>
+    <string name="breakdown_influence_range">影响范围：</string>
+
+    <!--CSIC update-->
+    <string name="csic_update_create_date">通告日期：</string>
+    <string name="csic_update_maker">发布人：</string>
+    <string name="csic_update_csic">所属CSIC：</string>
+    <string name="csic_update_csic_$">%1$s所属CSIC：</string>
+    <string name="csic_update_title">公告标题：</string>
+    <string name="csic_update_title_$">%1$s公告标题：</string>
+    <string name="csic_update_time">维护时间：</string>
+    <string name="csic_update_purpose">维护目的：</string>
+    <string name="csic_update_purpose_$">%1$s维护目的：</string>
+    <string name="csic_update_method">维护措施：</string>
+    <string name="csic_update_content">维护内容：</string>
+    <string name="csic_update_content_$">%1$s维护内容：</string>
+    <string name="csic_update_influence_range">影响范围：</string>
+    <string name="csic_update_charge_person">相关负责人：</string>
+
+    <!--Platform update-->
+    <string name="platform_update_create_date">通告日期：</string>
+    <string name="platform_update_maker">发布人：</string>
+    <string name="platform_update_date">升级维护时间：</string>
+    <string name="platform_update_response">相关责任人：</string>
+    <string name="platform_update_content">维护内容：</string>
+    <string name="platform_update_detail">升级维护详细内容：</string>
+    <string name="platform_update_influence">变更影响：</string>
+    <string name="platform_update_influence_range">影响范围：</string>
+    <string name="platform_update_title_$">%1$s公告标题</string>
+
+    <!--Warning notice-->
+    <string name="warning_notice_create_date">通告日期：</string>
+    <string name="warning_notice_maker">发布人：</string>
+    <string name="warning_csic">所属CSIC：</string>
+    <string name="warning_csic_$">%1$s所属CSIC：</string>
+    <string name="warning_title">公告标题：</string>
+    <string name="warning_title_$">%1$s公告标题：</string>
+    <string name="warnig_contain_devices">涉及设备：</string>
+    <string name="warning_contain_version">涉及版本：</string>
+    <string name="warning_contain_scope">涉及应用范围：</string>
+    <string name="warning_operate_type">操作类别：</string>
+    <string name="warning_work_load">人力投入：</string>
+    <string name="warning_charge">相关负责人：</string>
+    <string name="csicPerson">CSIC接口人：</string>
+    <string name="itPerson">IT接口人：</string>
+    <string name="operatePerson">实施负责人：</string>
+    <string name="warning_problem_desc">问题及根因：</string>
+    <string name="warning_reform_operate">整改措施：</string>
+    <string name="warning_notice_content">注意事项措施：</string>
+    <string name="operate_require">操作要求：</string>
+
+    <!-- publish-->
+    <string name="module">模板：</string>
+    <string name="email_group">邮件群组：</string>
+    <string name="email_receiver">%1$s收件人：</string>
+    <string name="email_cc_person">抄送人：</string>
+    <string name="no_data">请选择</string>
+    <string name="publish_success">发布成功</string>
+    <string name="publish_failed">发布失败</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_notice_failed">保存失败</string>
+    <string name="copy_failed">复制失败</string>
+    <string name="copy_success">复制成功</string>
+    <string name="delete_success">删除成功</string>
+    <!--breakdown-->
+    <string name="error_breakdown_csic">请选择故障所属CSIC</string>
+    <string name="error_breakdown_title">请输入公告标题</string>
+    <string name="error_breakdown_content">请输入故障描述</string>
+    <string name="error_breakdown_reason">请输入故障原因</string>
+    <string name="error_breakdown_receiver">请输入收件人</string>
+
+    <!--csic update-->
+    <string name="error_csic_update_csic">请选择升级维护CSIC</string>
+    <string name="error_csic_update_title">请输入公告标题</string>
+    <string name="error_csic_update_content">请输入维护内容</string>
+    <string name="error_csic_update_purpose">请输入维护目的</string>
+    <string name="error_csic_update_receiver">请输入收件人</string>
+
+    <!--warning-->
+    <string name="error_warning_csic">请选择预警CSIC</string>
+
+    <!--email-->
+    <string name="error_email_group_name">请输入群组名称</string>
+    <string name="error_email_receiver">请输入收件人</string>
+
+    <!--permission-->
+    <string name="no_permission">Sorry... 您没有权限访问【三朵云运维平台】，如有需要，请填写以下流程申请访问权限，多谢合作！</string>
+    <string name="apply_permission">申请</string>
+    <string name="change_permission">变更</string>
+    <string name="no_permission_title">提示</string>
+    <string name="permission_title">权限管理</string>
+    <string name="curr_role">当前角色：</string>
+    <string name="role_title">%1$s角色列表：</string>
+    <string name="apply_permission_reason">%1$s申请原因：</string>
+    <string name="role_permission_desc">权限描述：</string>
+    <string name="apply_permission_success">权限申请邮件发送成功，等待审批人审批</string>
+    <string name="apply_permission_failed">权限申请失败</string>
+    <string name="change_permission_success">权限变更申请邮件发送成功，等待审批人审批</string>
+    <string name="change_permission_failed">权限变更申请失败</string>
+    <string name="empty_reason">请输入申请原因</string>
+    <string name="empty_role">请选择要申请的角色</string>
+
+
+    <!--Email-->
+    <string name="email_csic">所属CSIC：</string>
+    <string name="email_receiver_$">收件人：</string>
+    <string name="email_group_name">%1$s群组名称：</string>
+
+    <string name="nav_drawer_open">展开</string>
+    <string name="nav_drawer_close">关闭</string>
+    <string name="logout">退出登录</string>
+    <!--check update-->
+    <string name="check_update">检查更新</string>
+    <string name="download_complete">下载完成</string>
+    <string name="update_failed">版本检查异常</string>
+    <string name="latest_version">已经是最新版本</string>
+    <string name="has_new_version">有新版本</string>
+    <string name="server_check_failed">无法检测到APP信息</string>
+    <string name="no_device">设备序列号不存在,非法设备！</string>
+    <string name="dialog_title">温馨提示</string>
+    <string name="dialog_msg">有新版本，是否需要更新？</string>
+    <string name="update_confirm">更新</string>
+    <string name="update_cancle">取消</string>
+
+    <string name="warning">警告</string>
+    <string name="delete_warning">是否确认删除该通告？</string>
+
+    <string name="clear_notice">清除后，此告警将被关闭</string>
+    <string name="confirm_notice">点击确认后，早上8点之前，该告警将不再发送通知</string>
+
+    <string name="loading">努力加载中...</string>
+    <string name="loging">正在登录...</string>
+    <string name="confirming">正在确认...</string>
+    <string name="clearing">正在清除...</string>
+
+    <string name="email_hint">格式：张三/123456,王五/wx123456,李四/123456</string>
+
+
+    <string name="title_activity_fault_announce">FaultAnnounceActivity</string>
+    <string name="title_activity_showcase_detail">ShowcaseDetailActivity</string>
+    <string name="title_activity_alarm_statistic">AlarmStatisticActivity</string>
+    <string name="title_activity_alarm_manager">AlarmManagerActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_alarm_detail">AlarmDetailActivity</string>
+    <string name="title_activity_announce_manage">AnnounceManageActivity</string>
+    <string name="title_activity_inspaction">InspactionActivity</string>
+    <string name="title_activity_announce_detail">AnnounceDetailActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_announce_publish">AnnouncePublishActivity</string>
+    <string name="title_activity_permission_manager">PermissionManagerActivity</string>
+    <string name="title_activity_email_list">EmailListActivity</string>
+</resources>

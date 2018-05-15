@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nv_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="true"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <RelativeLayout
+        android:id="@+id/personal_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:orientation="vertical">-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/personal_ic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/touxiang" />
+
+        <TextView
+            android:id="@+id/main_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/personal_ic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:paddingBottom="5dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/main_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+
+        <!--</LinearLayout>-->
+
+
+        <!--</LinearLayout>-->
+
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:background="#9A9A9A" />-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/operates"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:orientation="vertical">-->
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/permission_apply"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableRight="@drawable/ic_arrow_right"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="权限管理"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#9A9A9A"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:background="#9A9A9A" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/check_update"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="检查更新"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#9A9A9A"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:background="#9A9A9A" />-->
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/about"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableRight="@drawable/ic_arrow_right"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="关于"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#9A9A9A"-->
+        <!--android:textSize="14sp"-->
+        <!--android:visibility="gone" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:background="#9A9A9A"-->
+        <!--android:visibility="gone" />-->
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/logout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="退出登录"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#9A9A9A"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:background="#9A9A9A" />-->
+
+        <!--</LinearLayout>-->
+
+    </RelativeLayout>
+</LinearLayout>

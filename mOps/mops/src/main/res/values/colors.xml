@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C81F3</color>
+    <color name="colorPrimaryDark">#1C81F3</color>
+    <color name="colorAccent">#909090</color>
+    <color name="banner">#3493FF</color>
+    <color name="main_bg">#F8F8F8</color>
+    <color name="rbt_bg_checked">#071965</color>
+    <color name="rbt_bg_unchecked">#5A5A5A</color>
+    <color name="rbt_text_unchecked">#5A5A5A</color>
+    <color name="rbt_text_checked">#eaD0D6EB</color>
+    <color name="main_line">#ECECEC</color>
+    <color name="main_bt_unpress">#ffffff</color>
+    <color name="main_bt_press">#ECECEC</color>
+    <color name="line">#5fff</color>
+    <color name="bg">#F8F8F8</color>
+    <color name="alarm_item_bg_unpressed">#F8F8F8</color>
+    <color name="alarm_item_bg_pressed">#ECECEC</color>
+    <color name="filter_bg">#F0F0F0</color>
+    <color name="filter_text_stroke">#FBFBFB</color>
+    <color name="filter_text_unchecked">#909090</color>
+    <color name="filter_text_checked">#4161E2</color>
+    <color name="clear_button_bg_unpressed">#FF3A65</color>
+    <color name="clear_button_bg_pressed">#CA002E</color>
+    <color name="confirm_button_bg_unpressed">#9FDA64</color>
+    <color name="confirm_button_bg_pressed">#39a736</color>
+    <color name="contact_text">#fff</color>
+    <color name="swipe_refresh_circle_bg">#f00</color>
+    <color name="swipe_refresh_circle">#0f0</color>
+    <color name="alarm_detail_content_title">#676767</color>
+    <color name="alarm_detail_content">#9B9B9B</color>
+    <color name="divider">#EAEAEA</color>
+    <color name="alarm_statisical">#45C242</color>
+    <color name="search_stroke">#FFBE56</color>
+    <color name="announce_bt_unpressed">#FFD6D7D7</color>
+    <color name="announce_bt_pressed">#FFBDBEBE</color>
+    <color name="login_bt">#ff3FACFF</color>
+
+    <color name="enable">#EDEDED</color>
+
+    <!--histogram start-->
+    <color name="urgent_alarm">#ffFF7271</color>
+    <color name="important_alarm">#ffFFC14A</color>
+    <color name="secondary_alarm">#ff70EAC5</color>
+    <color name="general_alarm">#ffFC79E1</color>
+    <!--histogram end-->
+
+    <!--popuwindow start-->
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+
+    <color name="mask_color">#a0000000</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+
+    <color name="contact_card_bg">#C7E5F9</color>
+    <color name="contact_name">#1F63A8</color>
+    <!--popuwindow end-->
+
+    <!--indicator start-->
+    <!--indicator end-->
+</resources>

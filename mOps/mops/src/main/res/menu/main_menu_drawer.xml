@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nv_permission"
+            android:icon="@mipmap/permiss_ic"
+            android:title="@string/permission_title" />
+        <item
+            android:id="@+id/nv_update"
+            android:icon="@mipmap/update"
+            android:title="@string/check_update" />
+        <item
+            android:id="@+id/nv_logout"
+            android:icon="@mipmap/logout"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

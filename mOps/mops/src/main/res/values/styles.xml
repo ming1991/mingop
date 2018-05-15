@@ -1,0 +1,171 @@
+<resources>
+
+
+    <style name="MENU">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="PopupWindow_Anim">
+        <!-- PopupWindow左右弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/slide_top_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_top_out</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@drawable/list_divider</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="SplashActivityTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="LoginActivityTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen"></style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="elevation">0dp</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="main_button">
+        <item name="android:background">#071965</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="bt_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@drawable/main_bt_text_color</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="radioButton_style">
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--<item name="android:background">@drawable/dropdown_normal</item>-->
+    <style name="filter_text">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@drawable/filter_text_color</item>
+        <item name="android:background">@color/filter_text_stroke</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:drawableRight">@drawable/filter_cursor</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="contact_text">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/contact_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:alpha">0.8</item>
+    </style>
+
+    <style name="alarm_detail_content_title">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/alarm_detail_content_title</item>
+        <item name="android:textSize">@dimen/alarm_detail_content_title</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="alarm_detail_content">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/alarm_detail_content</item>
+        <item name="android:textSize">@dimen/alarm_detail_content</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="notice_publish_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#6A6A6A</item>
+    </style>
+
+    <style name="notice_publish_content">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:textColor">#909090</item>
+    </style>
+
+    <style name="spinner">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:popupBackground">#0000</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="text_18_ffffff">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_16_666666">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="sdw_white">
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.65</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="sdw_79351b">
+        <item name="android:shadowColor">#ff79351b</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="text_15_ffffff_sdw" parent="@style/sdw_79351b">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_15_666666_sdw" parent="@style/sdw_white">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

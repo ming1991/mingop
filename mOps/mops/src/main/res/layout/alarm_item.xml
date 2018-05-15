@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alarm_item_bg"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/alarm_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/alarm_item_is_clear"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:text="区域网络异常"
+        android:textAllCaps="false"
+        android:textColor="#676767"
+        android:textSize="@dimen/alarm_item_title" />
+
+    <TextView
+        android:id="@+id/alarm_item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/alarm_item_title"
+        android:layout_marginTop="5dp"
+        android:layout_toStartOf="@+id/alarm_item_last_date"
+        android:alpha="0.7"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:text="网络不通网络不通网络不通网络不通网络不通网络不通"
+        android:textAllCaps="false"
+        android:textColor="@color/filter_text_unchecked"
+        android:textSize="@dimen/alarm_item_describe" />
+
+    <TextView
+        android:id="@+id/alarm_item_is_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:text="未清除"
+        android:textAllCaps="false"
+        android:textColor="#FF6160"
+        android:textSize="@dimen/alarm_item_is_clear" />
+
+    <TextView
+        android:id="@+id/alarm_item_last_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/alarm_item_desc"
+        android:layout_alignEnd="@+id/alarm_item_is_clear"
+        android:singleLine="true"
+        android:text="2016/10/10 10:10"
+        android:textAllCaps="false"
+        android:textColor="@color/filter_text_unchecked"
+        android:textSize="@dimen/alarm_item_describe" />
+
+
+</RelativeLayout>

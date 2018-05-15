@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.huawei.mops.ui.announce.AnnounceManageActivity"
+    tools:showIn="@layout/activity_announce_manage">
+
+    <ListView
+        android:id="@+id/announce_category_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#0000"
+        android:divider="@null">
+
+    </ListView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/csic_upgrade_announce_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/announce_bt_bg"
+                    android:clickable="true"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/announce_icon_width"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/csic_upgrade" />
+
+                    <TextView
+                        style="@style/bt_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dp"
+                        android:alpha="0.8"
+                        android:text="@string/announce_csic_upgrade" />
+                </RelativeLayout>
+
+                <!--<com.huawei.mops.weight.BadgeView-->
+                    <!--android:id="@+id/csic_upgrade_badge"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="right|top"-->
+                    <!--android:layout_marginRight="35dp"-->
+                    <!--android:layout_marginTop="35dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="22" />-->
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/wrong_announce_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/announce_bt_bg"
+                    android:clickable="true"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/announce_icon_width"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/big_worng" />
+
+                    <TextView
+                        style="@style/bt_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dp"
+                        android:alpha="0.8"
+                        android:text="@string/announce_wrong" />
+                </RelativeLayout>
+
+                <!--<com.huawei.mops.weight.BadgeView-->
+                    <!--android:id="@+id/wrong_badge"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="right|top"-->
+                    <!--android:layout_marginRight="35dp"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="10" />-->
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/warning_notice_announce_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/announce_bt_bg"
+                    android:clickable="true"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/announce_icon_width"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/warning" />
+
+                    <TextView
+                        style="@style/bt_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dp"
+                        android:alpha="0.8"
+                        android:text="@string/announce_warning_notice" />
+                </RelativeLayout>
+
+                <!--<com.huawei.mops.weight.BadgeView-->
+                    <!--android:id="@+id/warning_notice_badge"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="right|top"-->
+                    <!--android:layout_marginRight="35dp"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="5" />-->
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/platform_upgrade_announce_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/announce_bt_bg"
+                    android:clickable="true"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/announce_icon_width"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/platform_upgrade" />
+
+                    <TextView
+                        style="@style/bt_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dp"
+                        android:alpha="0.8"
+                        android:text="@string/announce_platform_upgrade" />
+                </RelativeLayout>
+
+                <!--<com.huawei.mops.weight.BadgeView-->
+                    <!--android:id="@+id/platform_upgrade_badge"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="right|top"-->
+                    <!--android:layout_marginRight="35dp"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="222" />-->
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
